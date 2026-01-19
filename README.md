@@ -6,8 +6,9 @@ Welcome to **Ayo Analytix**. I specialize in transforming raw data into actionab
 I am a Data Analyst passionate about uncovering trends and helping businesses make data-driven decisions.
 
 ## 🛠 Services
-* **Data Visualization**: Dashboards in Tableau/Power BI.
-* **Statistical Analysis**: Python & R based modeling.
+* **Data Visualization**: Dashboards in Power BI.
+* **ETL/ELT**: ADF, Python, PySpark.
+* **Data Storage Management**: Lakes Houses, Data Warehouses.
 * **Business Intelligence**: SQL querying & reporting.
 
 ---
