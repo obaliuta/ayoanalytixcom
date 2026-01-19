@@ -1,0 +1,353 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Agency - Start Bootstrap Theme
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico?v=2')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+            .container
+                a.navbar-brand(href='#page-top')
+                    img(src='assets/img/navbar-logo.svg', alt='...')
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars.ms-1
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
+                        li.nav-item
+                            a.nav-link(href='#about') About Us
+                        li.nav-item
+                            a.nav-link(href='#services') Services
+                        li.nav-item
+                            a.nav-link(href='#portfolio') Portfolio
+                        li.nav-item
+                            a.nav-link(href='#team') Team
+                        li.nav-item
+                            a.nav-link(href='#usecase') Usecase
+                        li.nav-item
+                            a.nav-link(href='#contact') Contact
+        // Masthead
+        header.masthead
+            .container
+                .masthead-subheading Welcome To Our Studio!
+                .masthead-heading.text-uppercase It's Nice To Meet You
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+
+        // About Us
+        section#about.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase About Us
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                p.text-muted
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+        // Services
+        section#services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Services
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                .row.text-center
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
+                        h4.my-3 E-Commerce
+                        p.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-laptop.fa-stack-1x.fa-inverse
+                        h4.my-3 Responsive Design
+                        p.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-lock.fa-stack-1x.fa-inverse
+                        h4.my-3 Web Security
+                        p.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+        // Portfolio Grid
+        section#portfolio.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Portfolio
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 1
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Threads
+                                .portfolio-caption-subheading.text-muted Illustration
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 2
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Explore
+                                .portfolio-caption-subheading.text-muted Graphic Design
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 3
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Finish
+                                .portfolio-caption-subheading.text-muted Identity
+                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                        // Portfolio item 4
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Lines
+                                .portfolio-caption-subheading.text-muted Branding
+                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                        // Portfolio item 5
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Southwest
+                                .portfolio-caption-subheading.text-muted Website Design
+                    .col-lg-4.col-sm-6
+                        // Portfolio item 6
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Window
+                                .portfolio-caption-subheading.text-muted Photography
+
+        // Team
+        section#team.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Our Amazing Team
+                    h3.section-subheading.text-muted Nice to meet you!
+                .row.justify-content-center
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg?v=2', alt='...')
+                            h4 Oleh
+                            p.text-muted
+                                strong Data Analyst/Engineer
+                                br
+                                | About: 6+ years of experience in international businesses. Implemented solutions in machinery, IT, retail, and supply chain areas. Microsoft Certified Associate in Analytics and Data Engineering.
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg?v=2', alt='...')
+                            h4 Anastasiia
+                            p.text-muted
+                                strong Business Analyst
+                                br
+                                | About: 5+ years of hands-on experience in process management, digitalization, and team leading. 3+ years of project management and international sales dept. operations management.
+
+        // Clients
+        div.py-5
+            .container
+                .row.align-items-center
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...', aria-label='Microsoft Logo')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...', aria-label='Google Logo')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...', aria-label='Facebook Logo')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...', aria-label='IBM Logo')
+
+        // Usecase
+        section#usecase.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Usecase
+                    h3.section-subheading.text-muted Real-world applications of our solutions
+                p.text-muted
+                    | Our data-driven analytics solutions have been successfully implemented across various industries. Learn how organizations like yours are leveraging modern analytics platforms to transform their operations, gain competitive advantages, and make smarter business decisions faster than ever before.
+                .text-center.my-5
+                    iframe(title="full bi project", width="600", height="373.5", src="https://app.powerbi.com/view?r=eyJrIjoiZmMzYzNlMTgtMTk0MS00YTM2LTk0YzMtZWM1ZmE3ODc4NTA4IiwidCI6IjY1YjM5NGY3LTNhNzUtNDczYi1iYWQ2LTNjNDdkNWEyNGQ3MCIsImMiOjl9", frameborder="0", allowFullScreen="true")
+                .row.mt-5
+                    .col-lg-6
+                        h4.mb-3 Enterprise Analytics
+                        p.text-muted
+                            | Large enterprises use our Microsoft Fabric-based solutions to consolidate data from multiple sources, create unified analytics platforms, and empower decision-makers with real-time insights across the organization.
+                    .col-lg-6
+                        h4.mb-3 Real-time Monitoring
+                        p.text-muted
+                            | Organizations in finance and operations use our real-time streaming solutions to monitor critical business metrics as they happen, enabling immediate response to market changes and operational issues.
+
+        // Contact
+        section#contact.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Contact Us
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+
+                // * * * * * * * * * * * * * * *
+                // * * SB Forms Contact Form * *
+                // * * * * * * * * * * * * * * *
+
+                // This form is pre-integrated with SB Forms.
+                // To make this form functional, sign up at
+                // https://startbootstrap.com/solution/contact-forms
+                // to get an API token!
+
+                form#contactForm(data-sb-form-api-token='API_TOKEN')
+                    .row.align-items-stretch.mb-5
+                        .col-md-6
+                            .form-group
+
+                                // Name input
+                                input#name.form-control(
+                                    type='text',
+                                    placeholder='Your Name *',
+                                    data-sb-validations='required'
+                                )
+                                .invalid-feedback(data-sb-feedback='name:required')
+                                    | A name is required.
+
+                            .form-group
+
+                                // Email address input
+                                input#email.form-control(
+                                    type='email',
+                                    placeholder='Your Email *',
+                                    data-sb-validations='required,email'
+                                )
+                                .invalid-feedback(data-sb-feedback='email:required')
+                                    | An email is required.
+                                .invalid-feedback(data-sb-feedback='email:email')
+                                    | Email is not valid.
+
+                            .form-group.mb-md-0
+
+                                // Phone number input
+                                input#phone.form-control(
+                                    type='tel',
+                                    placeholder='Your Phone *',
+                                    data-sb-validations='required'
+                                )
+                                .invalid-feedback(data-sb-feedback='phone:required')
+                                    | A phone number is required.
+
+                        .col-md-6
+                            .form-group.form-group-textarea.mb-md-0
+
+                                // Message input
+                                textarea#message.form-control(
+                                    placeholder='Your Message *',
+                                    data-sb-validations='required'
+                                )
+                                .invalid-feedback(data-sb-feedback='message:required')
+                                    | A message is required.
+
+                    // Submit success message
+                    //
+                    // This is what your users will see when the form
+                    // has successfully submitted
+
+                    #submitSuccessMessage.d-none
+                        .text-center.text-white.mb-3
+                            .fw-bolder Form submission successful!
+                            | To activate this form, sign up at
+                            br
+                            a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+
+                    // Submit error message
+                    //
+                    // This is what your users will see when there is
+                    // an error submitting the form
+
+                    #submitErrorMessage.d-none
+                        .text-center.text-danger.mb-3 Error sending message!
+
+                    // Submit Button
+                    .text-center
+                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
+
+        // Footer
+        footer.footer.py-4
+            .container
+                .row.align-items-center
+                    .col-lg-4.text-lg-start
+                        | Copyright &copy; Your Website 2023
+                    .col-lg-4.my-3.my-lg-0
+                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
+                            i.fab.fa-twitter
+                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
+                            i.fab.fa-facebook-f
+                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='LinkedIn')
+                            i.fab.fa-linkedin-in
+                    .col-lg-4.text-lg-end
+
+        // Portfolio Modals
+        include includes/portfolio-modal-1
+        include includes/portfolio-modal-2
+        include includes/portfolio-modal-3
+        include includes/portfolio-modal-4
+        include includes/portfolio-modal-5
+        include includes/portfolio-modal-6
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
+
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        // * *                               SB Forms JS                               * *
+        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
