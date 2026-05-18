@@ -1,10 +1,3 @@
-# Ayo Analytix
-
-Welcome to **Ayo Analytix**. I specialize in transforming raw data into actionable insights.
-
-## 🚀 About Me
-I am a Data Analyst passionate about uncovering trends and helping businesses make data-driven decisions.
-
 ## 🛠 Services
 * **Data Visualization**: Dashboards in Power BI.
 * **ETL/ELT**: ADF, Python, PySpark.
